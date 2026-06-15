@@ -12,6 +12,9 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "LP Construcción | Soluciones para hogares y comunidades",
   description: "Empresa constructora premium en Santiago. Obras con garantía y atención al detalle.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

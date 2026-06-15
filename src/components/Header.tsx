@@ -19,9 +19,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-baseline gap-2">
-            <span className="text-2xl font-light text-charcoal tracking-tight">LP</span>
-            <span className="text-xs uppercase tracking-widest text-stone font-medium">Construcción</span>
+          <Link href="/" className="flex items-center">
+            <img src="/logo.png" alt="LP Construcción" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Menu */}
